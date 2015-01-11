@@ -1,0 +1,2 @@
+# vinylskin
+Magento webshop skin
