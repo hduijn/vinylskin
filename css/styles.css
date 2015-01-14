@@ -526,7 +526,7 @@ tr.summary-details-excluded { font-style:italic; }
 #nav span { display:block; cursor:pointer; white-space:nowrap; }
 #nav li ul span {white-space:normal; }
 
-/* 0 Level */
+/* 0 Level
 #nav li { float:left; margin:1px 8px 11px 1px; padding:3px 8px; }
 #nav li.active a { color:#444; }
 #nav a { float:left; background:url(../images/bkg_nav_top.gif) no-repeat 100% 50%; padding-right:11px; color:#444; font-weight:bold; }
@@ -534,6 +534,17 @@ tr.summary-details-excluded { font-style:italic; }
 #nav a:hover { color:#444; }
 #nav li.over,
 #nav li.active { margin:0 7px 10px 0; border:1px solid #bbb; background:#ececec; }
+*/
+
+/* 0 Level */
+#nav li { float:left; margin:1px 8px 11px 1px; padding:3px 8px; }
+#nav li.active a { color:#fbeece; }
+#nav a { float:left; background:url(../images/bkg_nav_top.gif) no-repeat 100% 50%; padding-right:11px; color:#fbeece; font-weight:bold; }
+#nav li.over a,
+#nav a:hover { color:#fbeece; }
+#nav li.over,
+#nav li.active { margin:0 7px 10px 0; border:1px solid #bbb; background:#ececec; }
+
 
 /* 1st Level */
 #nav ul li,
@@ -1648,7 +1659,7 @@ tr.summary-details-excluded { font-style:italic; }
 /* Footer ================================================================================ */
 .footer-container {}
 .footer { margin:15px 0 40px; }
-.footer a { color:#444; }
+.footer a { color:#fbeece; }
 
 .footer .f-left { width:520px; }
 .footer .f-right { width:429px; }
@@ -1656,10 +1667,10 @@ tr.summary-details-excluded { font-style:italic; }
 .footer ul { display:inline; }
 .footer li { display:inline; background:url(../images/bkg_pipe1.gif) 100% 50% no-repeat; padding:0 5px 0 0; margin:0 3px 0 0; }
 .footer .links li.last { background:none !important; padding-right:0 !important; }
-.footer .bugs { margin:0; color:#666; }
-.footer .bugs a { font-weight:bold; color:#444; }
-.footer address { color:#666; }
-.footer address a { color:#444; }
+.footer .bugs { margin:0; color:#fbeece; }
+.footer .bugs a { font-weight:bold; color:#fbeece; }
+.footer address { color:#fbeece; }
+.footer address a { color:#fbeece; }
 
 .footer .form-subscribe { margin:8px 0; }
 .footer .form-subscribe label,
