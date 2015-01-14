@@ -579,12 +579,12 @@ tr.summary-details-excluded { font-style:italic; }
 
 /* Sidebar =============================================================================== */
 .block { border:1px solid #ddd; margin:0 0 20px; line-height:1.35; }
-.block .block-title { border-bottom:1px solid #ddd; background:#e7e7e7; padding:2px 10px; }
+.block .block-title { border-bottom:1px solid #ddd; background:#c3741a; padding:2px 10px; }
 .block .block-title strong { display:block; font:bold 12px/1.5 Arial, Helvetica, sans-serif; text-transform:uppercase; color:#444; }
 .block .block-title strong span {}
 .block .block-title a { text-decoration:none !important; }
 .block .block-subtitle { font-size:10px; margin:0 0 10px; padding:0 0 2px; border-bottom:1px solid #ddd; text-transform:uppercase; }
-.block .block-content { background:#f6f6f6; padding:12px 10px; }
+.block .block-content { background:#eace9c; padding:12px 10px; }
 .block .block-content li.item { border-bottom:1px solid #ddd; padding-bottom:5px; margin-bottom:5px; }
 .block .block-content li.item.last { border-bottom:0; padding-bottom:0; margin-bottom:0; }
 .block .block-content .product-name { color:#4f8100; }
@@ -627,7 +627,7 @@ tr.summary-details-excluded { font-style:italic; }
 .block-layered-nav { border:0; }
 .block-layered-nav .block-title { border:0; padding:0; margin:0 0 6px; height:13px; background:url(../images/bkg_block-layered-title.gif) 0 0 no-repeat; text-indent:-999em; overflow:hidden; }
 .block-layered-nav .block-content { padding:0; }
-.block-layered-nav .block-subtitle { margin:0; background:#679100; font-size:12px; font-weight:bold; padding:2px 10px; color:#fbeece; }
+.block-layered-nav .block-subtitle { margin:0; background:#c3741a; font-size:12px; font-weight:bold; padding:2px 10px; color:#444; }
 .block-layered-nav dt { font-weight:bold; border-top:1px solid #fbeece; padding:8px 10px 0 10px; font-size:12px; }
 .block-layered-nav dd { padding:0 10px 8px 10px; border-bottom:1px solid #ddd; }
 .block-layered-nav dd li { line-height:1.35; margin:0 0 3px; }
@@ -643,8 +643,8 @@ tr.summary-details-excluded { font-style:italic; }
 .block-layered-nav .actions a { float:none; }
 
 /* Block: Cart */
-.block-cart .block-title { background:#679100; }
-.block-cart .block-title strong { color:#fbeece; }
+.block-cart .block-title { background:#c3741a; }
+.block-cart .block-title strong { color:#444; } 
 .block-cart .summary { background:#e5eed6; padding:8px; margin:-12px -10px 8px; text-align:center; position:relative; z-index:1; }
 .block-cart .amount { margin:0; }
 .block-cart .amount a { font-weight:bold; }
